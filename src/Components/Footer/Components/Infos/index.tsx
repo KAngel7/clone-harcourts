@@ -7,9 +7,13 @@ class Footer extends React.Component<{}, {}> {
   }
   render() {
     return (
-      <div className="header">
-        {this.body()}
-      </div>
+      <p className="copyrightInfo">
+        © 2017 Harcourts Group Ltd, Inc. All rights reserved.
+        <a href="/content/privacypolicy" target="_blank">Privacy Policy</a>
+        <span>|</span>
+        <a href="/popup/disclaimer" target="_blank">Disclaimer</a><br />
+        This website is best viewed with IE 7 or above; Firefox; Safari or Chrome
+      </p>
     );
   }
 }

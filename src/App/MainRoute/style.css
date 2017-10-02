@@ -14,6 +14,25 @@ h2 {
     color: #002B49;
     padding-bottom: 15px;
 }
+a:hover {
+    color: #00ADEF;
+    text-decoration: none;
+}
+
+a {
+    transition: all .2s ease-in-out;
+    color: #002B49;
+    text-decoration: none;
+}
+
+a {
+    cursor: pointer;
+}
+
+p {
+    margin: 0;
+    padding: 0 0 15px;
+}
 
 .globalContainer {
     width: 100%;

@@ -36,6 +36,10 @@ ul.links>li ul li a {
     display: block;
 }
 
+ul.links>li ul li a:hover {
+    color: #222;
+}
+
 @media screen and (min-width: 400px) {
     ul.links>li {
         flex: 0 0 50%;
