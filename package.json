@@ -49,8 +49,10 @@
   },
   "scripts": {
     "dev": "node scripts/start.js",
-    "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
+    "start": "cp src/index.main.tsx src/index.tsx && node scripts/start.js",
+    "build": "cp src/index.main.tsx src/index.tsx && node scripts/build.js",
+    "start-admin": "cp src/index.admin.tsx src/index.tsx && node scripts/start.js",
+    "build-admin": "cp src/index.admin.tsx src/index.tsx && node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
   },
   "jest": {
