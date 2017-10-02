@@ -19,8 +19,10 @@
   },
   "scripts": {
     "dev": "react-scripts-ts start",
-    "start": "react-scripts-ts start",
-    "build": "react-scripts-ts build",
+    "start": "cp src/index.main.tsx src/index.tsx && react-scripts-ts start",
+    "build": "cp src/index.main.tsx src/index.tsx && react-scripts-ts build",
+    "start-admin": "cp src/index.admin.tsx src/index.tsx && react-scripts-ts start",
+    "build-admin": "cp src/index.admin.tsx src/index.tsx && react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject"
   }

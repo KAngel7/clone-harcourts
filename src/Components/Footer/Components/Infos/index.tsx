@@ -1,11 +1,14 @@
 import * as React from 'react';
-import './Footer.css';
+import './style.css';
 
 class Footer extends React.Component<{}, {}> {
+  body = () => {
+    return (null);
+  }
   render() {
     return (
-      <div className="footer">
-        {}
+      <div className="header">
+        {this.body()}
       </div>
     );
   }

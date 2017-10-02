@@ -1,0 +1,38 @@
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+h2 {
+    font-size: 1.4rem;
+    line-height: 1.2em;
+    color: #002B49;
+    padding-bottom: 15px;
+}
+
+.globalContainer {
+    width: 100%;
+    padding-top: 50px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+@media (min-width: 900px) {
+    .globalContainer {
+        width: 870px;
+    }
+    .globalContainer {
+        padding-top: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .globalContainer {
+        width: 1200px;
+    }
+}
