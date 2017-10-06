@@ -11,53 +11,53 @@ class Links extends React.Component<{}, {}> {
         <li>
           <h2>Search</h2>
           <ul>
-            <li><a href="/Property/Residential">Residential Property for Sale</a></li>
-            <li><a href="/Property/Rural">Rural Property for Sale</a></li>
-            <li><a href="/Property/Rentals">Rental Property</a></li>
-            <li><h2>NAI Harcourts</h2></li>
-            <li><a href="http://www.naiharcourts.com.au/Property/Commercial">Commercial Property for Sale</a></li>
-            <li><a href="http://www.naiharcourts.com.au/Property/Commercial?sale=false">
+            <li><a href="/">Residential Property for Sale</a></li>
+            <li><a href="/">Rural Property for Sale</a></li>
+            <li><a href="/">Rental Property</a></li>
+            <li><h2>NAI Famicare</h2></li>
+            <li><a href="/">Commercial Property for Sale</a></li>
+            <li><a href="/">
               Commercial Property for Lease
                 </a></li>
-            <li><a href="http://www.naiharcourts.com.au/Property/Businesses">Business</a></li>
+            <li><a href="/">Business</a></li>
           </ul>
         </li>
         <li>
           <h2>Resources</h2>
           <ul>
-            <li><a href="http://www.mortgage-express.com.au/">Financial Services</a></li>
-            <li><a href="http://www.mortgage-express.com.au/tools/home-loan-repayment-calculator/">
+            <li><a href="/">Financial Services</a></li>
+            <li><a href="/">
               Loan Calculator
                 </a></li>
-            <li><a href="http://content.harcourts.com.au/Content/Free-Market-Appraisal">Value your Property</a></li>
-            <li><a href="http://content.harcourts.com.au/news">Latest Harcourts News</a></li>
+            <li><a href="/">Value your Property</a></li>
+            <li><a href="/">Latest Famicare News</a></li>
           </ul>
         </li>
         <li>
-          <h2>Harcourts</h2>
+          <h2>Famicare</h2>
           <ul>
-            <li><a href="http://ebooks.harcourts.net/?__hstc=2139531602532846#AustralianEditions">eBluebook</a></li>
-            <li><a href="http://content.harcourts.com.au/careers">Careers</a></li>
-            <li><a href="http://www.harcourts.net/academy/?__h276296">Academy</a></li>
-            <li><a href="http://www.harcourtscomplete.com.au/">Harcourts Complete</a></li>
-            <li><a href="http://www.harcourtsfoundation.org">Harcourts Foundation</a></li>
-            <li><a href="http://content.harcourts.com.au/careers/franchise-opportunities">
+            <li><a href="/">eBluebook</a></li>
+            <li><a href="/">Careers</a></li>
+            <li><a href="/">Academy</a></li>
+            <li><a href="/">Famicare Complete</a></li>
+            <li><a href="/">Famicare Foundation</a></li>
+            <li><a href="/">
               Franchise Opportunities
                 </a></li>
-            <li><a href="http://content.harcourts.com.au/content/australian-team">Meet the Team</a></li>
+            <li><a href="/">Meet the Team</a></li>
           </ul>
         </li>
         <li>
           <h2>Sections</h2>
           <ul>
-            <li><a href="http://content.harcourts.com.au/Content/AboutUs">About Us</a></li>
-            <li><a href="http://content.harcourts.com.au/Content/OurServices">Services</a></li>
-            <li><a href="http://content.harcourts.com.au/Content/Property-Management">
+            <li><a href="/">About Us</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">
               Property Management Services
                 </a></li>
-            <li><a href="/Offices">Harcourts Offices / People</a></li>
-            <li><a href="http://content.harcourts.com.au/news">News</a></li>
-            <li><a href="http://content.harcourts.com.au/blog">Blog</a></li>
+            <li><a href="/">Famicare Offices / People</a></li>
+            <li><a href="/">News</a></li>
+            <li><a href="/">Blog</a></li>
           </ul>
         </li>
       </ul>

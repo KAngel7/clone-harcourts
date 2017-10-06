@@ -1,0 +1,51 @@
+.mainFeature {
+  position: relative;
+}
+.spWrapper{
+  position: initial;
+  width: 100%;
+}
+.slideShowWrapper {
+  position: initial;
+  flex: 0 0 auto;
+  order: 1;
+  width: 100%;
+  display: inline-block;
+  margin-left: 30px;
+  padding-top: 15px;
+}
+
+
+@media (min-width: 900px) {
+  .spWrapper{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: inherit;
+  }
+  .slideShowWrapper {
+    position: absolute;
+    width: calc(100% - 330px);
+    right: 0;
+    top: 0;
+    height: inherit;
+  }
+  .mainFeature {
+    height: 440px;
+  }
+}
+
+ @media (max-width: 900px) {
+  .slideShowWrapper{
+    margin-left: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .spWrapper{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  }
+
+

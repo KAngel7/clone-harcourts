@@ -4,6 +4,7 @@ import { RouteComponentProps } from 'react-router-dom';
 import Header from '../../Components/Header';
 import Footer from '../../Components/Footer';
 import Body from './Components/Body';
+import LiveChatClient from '../../Components/LiveChatClient';
 
 class HomePage extends React.Component<RouteComponentProps<any>, {}> {
   render() {
@@ -12,11 +13,14 @@ class HomePage extends React.Component<RouteComponentProps<any>, {}> {
         <div className="headerWrapper">
           <Header />
         </div>
-        <div className="bodyWrapper">
+        <div className="bodyWrapper container">
           <Body />
         </div>
-        <div className="footerWrapper">
+        <div className="footerWrapper container">
           <Footer />
+        </div>
+        <div className="liveChatClientWrapper" style={{display: 'none'}}>
+          <LiveChatClient />
         </div>
       </div>
     );

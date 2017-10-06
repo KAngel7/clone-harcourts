@@ -8,7 +8,7 @@ class Footer extends React.Component<{}, {}> {
   render() {
     return (
       <p className="copyrightInfo">
-        © 2017 Harcourts Group Ltd, Inc. All rights reserved.
+        © 2017 Famicare Group Ltd, Inc. All rights reserved.
         <a href="/content/privacypolicy" target="_blank">Privacy Policy</a>
         <span>|</span>
         <a href="/popup/disclaimer" target="_blank">Disclaimer</a><br />

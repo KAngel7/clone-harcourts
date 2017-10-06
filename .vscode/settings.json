@@ -1,0 +1,18 @@
+{
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "css.lint.duplicateProperties": "warning",
+  "css.lint.compatibleVendorPrefixes": "warning",
+  "css.lint.ieHack": "warning",
+  "css.lint.unknownVendorSpecificProperties": "warning",
+  "css.lint.float": "warning",
+  "css.lint.idSelector": "warning",
+  "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/node_modules": true
+  }
+}

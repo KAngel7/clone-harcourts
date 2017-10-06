@@ -1,0 +1,111 @@
+.userBar {
+  height: 25px;
+  line-height: 23px;
+  background: rgb(0, 40, 68);
+  font-size: .8rem;
+  overflow: hidden;
+}
+
+.userBar .container {
+  position: relative;
+}
+
+.userBar #topNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.userBar #topNav .siteSwitcher {
+  display: inline-block;
+}
+
+.userBar .sitedropBox{
+  margin:0px;
+}
+
+.userBar .sitedropBox li {
+  position: relative;
+}
+
+.userBar .sitedropBox .countryAU a {
+  /* background-image: url(/Images/flags/au.png); */
+}
+
+.userBar .sitedropBox .countryCurrent a {
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 25px;
+}
+
+.userBar .sitedropBox .siteSelectDrop {
+  display: block;
+  height: 25px;
+  line-height: 23px;
+  padding: 0;
+  color: #b3bfc8;
+}
+
+.userBar a {
+  color: #b3bfc8;
+  font-size: inherit;
+}
+
+.userBar .sitedropBox li ul {
+  display: none;
+  background: #002B49;
+  border-top: solid 2px #00ADEF;
+  position: absolute;
+  z-index: 1001;
+  left: 0;
+  top: 100%;
+  box-shadow: 0 5px 8px -5px #000;
+  padding: 0 0 5px;
+  min-width: 230px;
+}
+
+.userBar .sitedropBox li ul li {
+  display: block;
+}
+
+.userBar .sitedropBox li {
+  position: relative;
+}
+
+.userBar .sitedropBox .countryAU a {
+  background-image: url(/Images/flags/au.png);
+}
+
+.userBar .sitedropBox li ul li a {
+  color: #fff;
+  display: block;
+  padding: 8px 15px 8px 36px;
+  background-repeat: no-repeat;
+  background-position: 8px center;
+  font-size: .9rem;
+}
+
+.userBar a {
+  color: #b3bfc8;
+  font-size: inherit;
+}
+
+
+.userBar #myAccountNav {
+  height: 25px;
+  width: auto;
+  font-size: 0;
+  color: #b3bfc8;
+}
+
+.userBar #myAccountNav li {
+  font-size: .8rem;
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.userBar #myAccountNav li a {
+  padding-left: 10px;
+}

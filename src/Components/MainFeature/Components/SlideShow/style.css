@@ -1,0 +1,174 @@
+.mainSlide .mainSlideInfo {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 3px;
+  background: black;
+  height: 34px;
+  width: 100%;
+  opacity: 0.8;
+  padding: 0 15px 0px 15px;
+  line-height: 34px;
+}
+
+.subSlide li.active {
+  opacity: 1;
+}
+
+.mainSlide .mainSlideInfo h3 {
+  display: inline-block;
+  margin:0px;
+}
+
+.mainSlide .mainSlideInfo .mainSlideInfoTitle {
+  position: absolute;
+  left: 0;
+  color: white;
+  margin-left: 10px;
+}
+
+.mainSlide .mainSlideInfo .mainSlideInfoSubInfo {
+  position: absolute;
+  right: 0;
+  color: #00ADEF;
+  margin-right: 10px;
+}
+
+.subSlide ul li:hover {
+  opacity: 1;
+}
+
+.subSlide ul li a {
+  position: relative;
+}
+
+.subSlide .subSlideTitle {
+  position: absolute;
+  padding: 4px;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background: black;
+  opacity: 0.8;
+  color: white
+}
+
+.subSlide ul li:hover .subSlideTitle {
+  color: #00ADEF;
+}
+
+.slideShowContainer {
+  display: block;
+}
+
+.mainSlide {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.mainSlide .imgWrapper {
+  width: 100%;
+  height: 300px;
+}
+
+.mainSlide .imgWrapper img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.subSlide {
+  display: block;
+  width: 100%;
+}
+
+.subSlide ul {
+  margin: 0;
+}
+
+.subSlide ul li {
+  display: inline-block;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  width: calc(100%/4);
+  height: auto;
+  opacity: 0.4;
+  transition: opacity 1s ease-out;
+}
+
+.subSlide ul li img {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 700px) {
+  .slideShowContainer{
+    display: flex;
+    height: 400px;
+  }
+  .mainSlide {
+    flex: 3;
+    width: 75%;
+  }
+  .mainSlide .imgWrapper {
+    height: 400px;
+  }
+  .mainSlide .imgWrapper img {
+    padding-bottom: 2px;
+  }
+  .subSlide {
+    width: 25%;
+  }
+  .subSlide ul {
+    margin: 0;
+    height: 100%;
+  }
+  .subSlide ul li {
+    margin: 0 5px 10px 5px;
+    height: 90px;
+    opacity: 0.4;
+    width: calc(100% - 10px);
+    transition: opacity 1s ease-out;
+  }
+  .subSlide ul li img {
+    width: 100%;
+    height: 90px;
+  }
+}
+
+@media (max-width: 600px) {
+  .mainSlide{
+    display: block;
+    width:100%;
+    margin-bottom: 5px;
+    position: relative;
+  }
+
+  .subSlide{
+    display: block;
+    width: 100%;
+  }
+
+  .subSlide ul{
+    margin:0;
+  }
+
+  .subSlide ul li{
+    display: inline-block;
+    text-align: center;
+    margin:0px;
+    padding:0px;
+    width: calc(25%);
+    height:auto;
+    opacity:0.4;
+    transition: opacity 1s ease-out;
+  }
+  .subSlide ul li img{
+    width: 100%;
+    height: auto;
+  }
+
+}
+

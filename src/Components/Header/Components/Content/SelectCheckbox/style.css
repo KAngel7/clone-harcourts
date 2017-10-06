@@ -1,0 +1,43 @@
+.selectComp *{
+  margin:0;
+  padding:0;
+}
+
+.selectComp{
+  position: relative;
+  display: inline-block;
+}
+
+.selectComp span{
+  font-size: 15px;
+}
+
+.selectListChoice{
+  display: none;
+  position: absolute;
+  background-color:lightgrey;
+  border-radius: 5px;
+  margin-top:10px;
+  padding:10px;
+}
+
+.selectListChoice.active{
+  display: block;
+  width:100%;
+}
+
+.selectListChoice li{
+  padding:5px;
+  line-height: normal;
+  transition: background-color 0.3s linear 0s;
+  cursor: pointer;
+  margin-bottom:5px;
+}
+
+.selectListChoice li:hover{
+  background-color:lightslategray;
+}
+
+.selectListChoice input{
+  margin-right:5px;
+}

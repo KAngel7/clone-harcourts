@@ -1,0 +1,45 @@
+.liveChatBox {
+  width: 260px;
+  height: 330px;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-radius: 3px 3px 0 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .3);
+}
+.liveChatBox p {
+  padding: 0;
+}
+.liveChatBox .lcHeader {
+  background: #f6f7f9;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .20);
+  color: #191919;
+  height: 26px;
+  line-height: 26px;
+  padding-right: 3px;
+  z-index: 2;
+  position: relative;
+}
+.liveChatBox .lcBody {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 308px;
+  position: relative;
+}
+.liveChatBox .adminStatus {
+  margin-right: 5px;
+  margin-left: 5px;
+  display: inline-block;
+  opacity: 1;
+  background: #42b72a;
+  border-radius: 50%;
+  height: 6px;
+  vertical-align: middle;
+  width: 6px;
+}
+.liveChatBox .lcFooter {
+  position: absolute;
+  bottom: 0;
+  height: 26px;
+}

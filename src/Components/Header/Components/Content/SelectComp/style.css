@@ -1,0 +1,33 @@
+.selectComp{
+  position: relative;
+  display: inline-block;
+}
+
+.selectComp span{
+  cursor: pointer;
+  text-align: center;
+  padding:5px;
+  color:white;
+}
+
+.selectComp ul{
+  position: absolute;
+  width: calc(100%-20px);
+  border-radius: 3px;
+  background-color: white;
+  margin-top:10px;
+  padding:10px;
+  display: none;
+}
+
+.selectComp ul li{
+  cursor: pointer;
+  text-align: left;
+  padding:5px;
+  transition: background 0.3s linear 0s;
+  white-space: nowrap;
+}
+
+.selectComp ul li:hover{
+  background: #EEEEEE;
+}
